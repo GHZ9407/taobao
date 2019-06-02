@@ -1,0 +1,304 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    height:30px;
+    background-color: #fff;
+}
+
+.content{
+    margin:0 auto;
+    width:1200px;
+    height:30px;
+    background-color: #fff;
+}
+
+.menu{
+    list-style:none;
+    line-height: 30px;
+}
+.menu::after{
+    content:"";
+    display: block;
+    clear:both;
+}
+
+.menu1{
+    float:left;
+    margin-left:16px;
+    font-size: 13px;
+    color: gray;
+    font-family: Hsans-serif;
+}
+#head{
+    color:#f40;
+    margin-right: -6px;
+    font-size: 13px;
+}
+#head1{
+    color:#f40;
+    margin-right: 10px;
+    font-size: 13px;
+}
+.menu2{
+    float:right;
+    margin-right: 10px;
+    font-size: 13px;
+    color: gray;
+    font-family: Hsans-serif;
+}
+.menu .menu1:hover{
+    color:#f40;
+    cursor: pointer;
+}
+.menu .menu2:hover{
+    color:#f40;
+    cursor: pointer;
+}
+.taobao a{
+  display:inline-block;
+  text-decoration: none;
+  color:#f03726;
+  font-size: 30px;
+  line-height: 40px;
+  margin:40px 0 0 7px;
+}
+.img{
+    width:163px;
+    height:50px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-image: url(taobao.png);
+    background-repeat: no-repeat;
+}
+.d{
+    float: left;
+    margin-left: 70px;
+}
+
+.form{
+      float: left;
+      width: 580px;
+      height:33px;
+      margin: 60px 0px 0px 160px;
+      border:4px solid red;
+      font-size: 20px;
+}
+.form1{
+    margin:60px 50px 0px 0px;
+    width: 70px;
+    height: 42px;
+    background-color: red;
+    border:0px solid transparent;
+}
+.item1,
+.item{
+    float:left;
+    list-style: none;
+    margin-left: 15px;
+    font-size: 12px;
+    font-family: Hsans-serif;
+}
+.item{
+    color: grey;
+}
+.item1{
+    color: #f40;
+}
+#list1{
+    margin-left: 400px;
+    margin-top: 7px;
+}
+#list1::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.item:hover,.item1:hover{
+    color: #f40;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.red{
+    float: left;
+    background-color:#f40;
+    width:250px;
+    line-height: 40px;
+    margin-left: 70px;
+    margin-top: 17px;
+    height: 40px;
+    color:white;
+}
+.sy{
+    margin: auto;
+    font-size: 15px;
+}
+.buy1{
+    margin: 25px 0px 0px 70px;
+    height: 37px;
+    width: 80px;
+    border:0px solid transparent;
+    font-size:16px;
+    font-weight:bold;
+}
+.black{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.female{
+    float:left;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 70px;
+    margin-top:7px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fe6cb3;
+    font-family: Courier;
+    background-color:grey;
+}
+
+.item2,.item3{
+    margin-left: 10px;
+    font-size: 13px;
+}
+.girls,
+.boy,
+.huawei,
+.baby,
+.object,
+.eat,
+.lipstick{
+    margin-left: 103px;
+    margin-top: 10px;
+}
+.item2:hover,
+.item3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #f03726;
+}
+.male{
+    float:left;
+    color:#fe6cb3;
+    background-color: grey;
+    font-weight: bold;
+    font-size: 14px;
+    height:40px;
+    line-height: 40px;
+    margin-top: 7px;
+    margin-left: 70px;
+}
+.two,
+.mobile,
+.four,
+.five,
+.six,
+.seven{
+    margin: 15px 0px 0px 80px;
+}
+.digital,
+.mather,
+.home,
+.delicious,
+.beauty{
+    float:left;
+    color:#fe6cb3;
+    background-color: grey;
+    font-weight:bold;
+    font-size: 14px;
+    height:40px;
+    line-height:40px;
+    margin-top: 7px;
+    margin-left: 70px;
+}
+.big{
+    float:left;
+    margin-right:60px;
+}
+.tupian{
+    float:left;
+    width: 700px;
+    height:360px;
+    background-image: url(tu.png);
+}
+/*.tupian::after{
+    content:"";
+    display: inline-block;
+    clear:both;
+}*/
+.table{
+    float:left;
+    margin-left:15px;
+}
+
+.a,
+.b,
+.c,
+.d{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: Gill Sans;
+    font-size:20px;
+}
+
+.tb{
+    margin-left: 58px;
+    font-size: 18px;
+    color:#f40;
+    font-weight:small;
+}
+
+.chao
+{
+    margin-left:50px;
+    color:#cc2a78;
+}
+.ali{
+    margin-left: 30px;
+    color:#82dfb8;
+}
+.gou{
+    margin-left: 65px;
+    color:rgb(224, 11, 11);
+}
+.tao{
+    margin-left: 65px;
+    color:#f40;
+}
+.cat{
+    color:rgb(128, 39, 39);
+}
+.ju{
+    color:#c5538a;
+}
+.jiu{
+    color:#f40;
+}
+.market{
+    color:#fe6cb3;
+}
+.bb{
+    border:1px solid rgb(110, 109, 109);
+    background-image: url(lay.png);
+    position: fixed;
+    right:25px;
+    top:110px;
+    width:40px;
+    height:270px;
+}
+.cat:hover,
+.tao:hover,
+.ju:hover,
+.chao:hover,
+.jiu:hover,
+.gou:hover,
+.market:hover,
+.ali:hover{
+        cursor: pointer;
+}
